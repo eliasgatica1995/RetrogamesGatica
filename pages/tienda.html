@@ -4,51 +4,99 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title class="tituloprincipal">Retrogames</title>
-    <link rel="icon" href="./img/favicon.ico" type="image" />
+    <title class="tituloprincipal">Tienda</title>
+    <link rel="icon" href="/img/favicon.ico" type="image" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <!--Inicio Header-->
     <header class="encabezado">
       <div>
-        <img src="img/logo.svg" alt="logo" />
+        <img src="../img/logo.svg" alt="logo" />
         <label for="logo" class="tituloprincipal">Retrogames</label>
-        <!--Navegacion-->
-        <nav class="navegacion">
+        <nav>
           <ul class="menu">
-            <li class="hover"><a href="index.html">Inicio</a></li>
-            <li class="hover"><a href="./pages/tienda.html">Tienda</a></li>
-            <li class="hover">
-              <a href="./pages/servicios.html">Servicios</a>
-            </li>
-            <li class="hover"><a href="./pages/contacto.html">Contacto</a></li>
-            <li class="hover"><a href="./pages/nosotros.html">Nosotros</a></li>
+            <li class="hover"><a href="../index.html">Inicio</a></li>
+            <li class="hover"><a href="./tienda.html">Tienda</a></li>
+            <li class="hover"><a href="./servicios.html">Servicios</a></li>
+            <li class="hover"><a href="./contacto.html">Contacto</a></li>
+            <li class="hover"><a href="./nosotros.html">Nosotros</a></li>
           </ul>
         </nav>
-        <!--Fin Navegacion-->
       </div>
     </header>
     <!--Fin Header-->
 
     <!--Inicio Main-->
     <main>
-      <div data-aos="fade-up" class="news">
-        <div class="contenedor">
-          <img
-            class="ImgLandingPage"
-            src="/img/retroconsolas.jpg"
-            alt="imagen"
-          />
-          <p class="texto">
-            Bienvenidos a la
-            <span class="destacado"> mejor</span> pagina de compraventa de
-            juegos y consolas retro
-          </p>
+      <div id="padreGrid">
+        <!--PRIMER PRODUCTO-->
+        <div class="producto1">
+          <div class="contenedor">
+            <img class="imagen" src="../img/3ds.jpg" alt="imagen" />
+            <p class="textoDark">NINTENDO 3DS Precio: XXXX</p>
+          </div>
+        </div>
+        <!--SEGUNDO PRODUCTO-->
+        <div class="producto2">
+          <div class="contenedor">
+            <img class="imagen" src="../img/switch.jpg" alt="imagen" />
+            <p class="textoDark">NINTENDO SWITCH Precio: XXXX</p>
+          </div>
+        </div>
+
+        <!--TERCER PRODUCTO-->
+        <div class="producto3">
+          <div class="contenedor">
+            <img class="imagen" src="../img/gameboy.jpg" alt="imagen" />
+            <p class="textoDark">NINTENDO GAMEBOY Precio: XXXX</p>
+          </div>
+        </div>
+        <!--CUARTO PRODUCTO-->
+        <div class="producto4">
+          <div class="contenedor">
+            <img class="imagen" src="../img/nes.jpg" alt="imagen" />
+            <p class="textoDark">NINTENDO ENTERTAINMENT SYSTEM Precio: XXXX</p>
+          </div>
+        </div>
+        <!--QUINTO PRODUCTO-->
+        <div class="producto5">
+          <div class="contenedor">
+            <img class="imagen" src="../img/ps1.jpg" alt="imagen" />
+            <p class="textoDark">SONY PLAYSTATION Precio: XXXX</p>
+          </div>
+        </div>
+        <!--SEXTO PRODUCTO-->
+        <div class="producto6">
+          <div class="contenedor">
+            <img class="imagen" src="../img/psp.jpg" alt="imagen" />
+            <p class="textoDark">SONY PLAYSTATION PORTABLE Precio: XXXX</p>
+          </div>
+        </div>
+        <!--SEPTIMO PRODUCTO-->
+        <div class="producto7">
+          <div class="contenedor">
+            <img class="imagen" src="../img/ps4.jpg" alt="imagen" />
+            <p class="textoDark">SONY PLAYSTATION 4 Precio: XXXX</p>
+          </div>
+        </div>
+        <!--OCTAVO PRODUCTO-->
+        <div class="producto8">
+          <div class="contenedor">
+            <img class="imagen" src="../img/ps5.jpg" alt="imagen" />
+            <p class="textoDark">SONY PLAYSTATION 5 Precio: XXXX</p>
+          </div>
+        </div>
+        <!--NOVENO PRODUCTO-->
+        <div class="producto9">
+          <div class="contenedor">
+            <img class="imagen" src="../img/xbox.jpg" alt="imagen" />
+            <p class="textoDark">MICROSOFT XBOX Precio: XXXX</p>
+          </div>
         </div>
       </div>
     </main>
@@ -91,6 +139,6 @@
         </div>
       </div>
     </footer>
-    <!--Fin Footer-->
+    <!--Inicio Footer-->
   </body>
 </html>

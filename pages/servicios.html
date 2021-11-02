@@ -4,51 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title class="tituloprincipal">Retrogames</title>
-    <link rel="icon" href="./img/favicon.ico" type="image" />
+    <title class="tituloprincipal">Servicios</title>
+    <link rel="icon" href="/img/favicon.ico" type="image" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <!--Inicio Header-->
     <header class="encabezado">
       <div>
-        <img src="img/logo.svg" alt="logo" />
+        <img src="../img/logo.svg" alt="logo" />
         <label for="logo" class="tituloprincipal">Retrogames</label>
-        <!--Navegacion-->
-        <nav class="navegacion">
+        <nav>
           <ul class="menu">
-            <li class="hover"><a href="index.html">Inicio</a></li>
-            <li class="hover"><a href="./pages/tienda.html">Tienda</a></li>
-            <li class="hover">
-              <a href="./pages/servicios.html">Servicios</a>
-            </li>
-            <li class="hover"><a href="./pages/contacto.html">Contacto</a></li>
-            <li class="hover"><a href="./pages/nosotros.html">Nosotros</a></li>
+            <li class="hover"><a href="../index.html">Inicio</a></li>
+            <li class="hover"><a href="./tienda.html">Tienda</a></li>
+            <li class="hover"><a href="./servicios.html">Servicios</a></li>
+            <li class="hover"><a href="./contacto.html">Contacto</a></li>
+            <li class="hover"><a href="./nosotros.html">Nosotros</a></li>
           </ul>
         </nav>
-        <!--Fin Navegacion-->
       </div>
     </header>
     <!--Fin Header-->
 
     <!--Inicio Main-->
     <main>
-      <div data-aos="fade-up" class="news">
-        <div class="contenedor">
-          <img
-            class="ImgLandingPage"
-            src="/img/retroconsolas.jpg"
-            alt="imagen"
-          />
-          <p class="texto">
-            Bienvenidos a la
-            <span class="destacado"> mejor</span> pagina de compraventa de
-            juegos y consolas retro
-          </p>
+      <div class="padreFlex">
+        <div class="column">
+          <img src="../img/reparouno.jpg" class="imagenServ" />
+          <button class="boton">Reparacion de consolas</button>
+        </div>
+        <div class="column">
+          <img src="../img/alquiler.jpg" class="imagenServ" />
+          <button class="boton">Alquiler de consolas</button>
         </div>
       </div>
     </main>
